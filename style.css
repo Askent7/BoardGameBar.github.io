@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.ground {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+
+}
+body{
+    margin: 0;
+}
+
+.name{
+    font-family: Ubuntu;
+    font-size: 72px;
+    padding: 24px 0px 38px 0px;
+    font-weight: 600;
+    line-height: 1.17;
+    text-align: left;
+    color: #fff;
+}
+
+.group{
+    font-family: Ubuntu;
+    font-size: 24px;
+    padding: 0px 0px 30px 0px;
+    font-weight: 300;
+    line-height: 1.17;
+    text-align: left;
+    color: #fff;
+}
+
+.spage{
+    position: absolute;
+    margin: 35vh  0 0 15%;
+}
+
+.block{
+    display: block;
+    
+}
+
+.cont{
+    padding-top: 25vh;
+    padding-bottom: 25vh;
+
+}
+
+.contF{
+    padding-top: 7vh;
+    padding-bottom: 5vh;
+
+}
+
+.context{
+    color: #ffb62e;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    font-family: Ubuntu;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center center;
+
+}
+
+.blocktext{
+    font-size: 30px;
+    line-height: 1.45;
+    font-family: Ubuntu;
+    font-weight: 300;
+    color: #000;
+    text-align: center center;
+    margin-bottom: 50px;
+
+}
+
+.ground1 {
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    display: block;
+    overflow: hidden;
+    align-items: center;
+
+
+}
+
+.name_text{
+    font-family: Ubuntu;
+    font-size: 72px;
+    padding: 45vh 0px 0px 0px;
+    font-weight: 600;
+    line-height: 1.17;
+    text-align: center;
+    color: #fff;
+}
+
+.name_text2{
+    font-family: Ubuntu;
+    font-size: 72px;
+    padding: 38vh 0px 0px 0px;
+    font-weight: 600;
+    line-height: 1.17;
+    text-align: center;
+    color: #fff;
+}
+
+.button{
+    color: #000;
+    height: 50px;
+    width: 200px;
+    font-family: Ubuntu;
+    text-align: center;
+    line-height: 60px;
+    font-size: 16px;
+    font-weight: 700;
+    border: 2px solid #000;
+    padding: 15px 25px 15px 25px;
+
+
+
+}
+.button:link{
+    color: #000;
+    text-decoration: none;
+}
+
+.button:visited{
+    color: #000;
+    text-decoration: none;
+}
+
+a:link {
+    color: #ffb62e;
+
+}
+
+a:visited {
+    color: #ffb62e;
+
+}
+.table{
+    background-color: #ffb62e ;
+}
+
+table{
+    margin-top: 50px;
+    border-color: #fff;    
+    border-collapse: collapse;
+}
+
+ td, tr{
+    border: 1px solid rgb(114, 114, 114);
+    background-color: rgb(230, 230, 230);
+    padding: 10px 4px 10px 4px;
+
+
+}
+
+.header ul{
+    list-style: none; 
+    padding-left: 0; 
+    overflow: hidden;   
+     vertical-align: middle;
+    text-align: center;
+    margin-top: 2.25vh;
+    
+}
+
+.header li {
+    float:left; 
+    margin-right:5px; 
+  }
+.header a{
+    margin-left: 120px; 
+    margin-right: 75px; 
+    color: #000;
+    text-decoration: none;
+    font-family: Ubuntu;
+    font-size: 1em;
+
+
+}
+
+.header{
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    height: 7vh;
+    justify-content: center;
+    display: flex;
+    z-index: 2;
+}
+
+
+#progres{
+    background-image: url(img/progres.jpg);
+}
+
+
+#start{
+    background-image: url(img/start.jpg);
+}
+
+#about{
+    background-image: url(img/me.jpg);
+}
+
+#family{
+    background-image: url(img/family.jpg);
+}
+
+#hobby{
+    background-image: url(img/hobby.jpg);
+}
+
+#img_main_1{
+    background-image: url(img/mainpic1.jpg);
+}
+
+#img_main_2{
+    background-image: url(img/mainpic2.jpg);
+}
+
+#img_hobby_1{
+    background-image: url(img/hobby1.png);
+}
+
+#img_hobby_2{
+    background-image: url(img/hobby2.jpg);
+}
+
+#img_hobby_3{
+    background-image: url(img/me.jpg);
+}
+
+#img_family_1{
+    background-image: url(img/family1.jpg);
+}
+#img_family_2{
+    background-image: url(img/family2.jpg);
+}
+#img_family_3{
+    background-image: url(img/family3.jpg);
+}
+#netflix{
+    background-image: url(img/netflix.jpg);
+}
+
+#topp{
+    background-image: url(img/top.jpg);
+}
+
+
+
